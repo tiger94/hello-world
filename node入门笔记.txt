@@ -1,0 +1,57 @@
+npm i -g nrm  -g代表是全局模块，不写默认装本地，全局就是说你在任何路径下都可以使用。
+一般是工具包才全局安装，他们都是装在一个地方，而npm的依赖是跟着项目走的。
+这样的好处是灵活，缺点是占了很多不必要的体积。
+就比如你有三个项目，每个项目都依赖A包，其他语言会在一个地方装一次A包，npm会装三次。
+本地的不需要，默认是当前项目路径的/node_modules里
+
+
+nrm ls = list显示所有的源
+
+
+自己添加源：nrm add 源名称 url
+
+
+nrm use taobao   就切换成了淘宝源
+
+
+npm install -g yo   这个yo是yeoman，脚手架生成器，安装yo的命令
+
+
+http://yeoman.io/learning/index.html     把getting start和tutorial看了跟着做了。。
+
+
+npm i -g yo就等于升级，如果有新版本的话。。没有就什么也不会干
+
+
+升级了，教程给的版本可能比较老，这个选择是问你你想要用哪个持续集成平台来做持续集成。
+持续集成是敏捷开发软件方法的重要实践，下来自行了解。
+关键词：持续集成 Continuous Integration
+
+
+Travis是开源世界中非常受欢迎的一个持续集成平台，因为它对开源项目免费，配置简单。
+
+
+router？none，不需要路由，路由是开发SPA（single page application）使用的。
+
+
+package.json，你可以理解为项目的配置清单，记载着你的项目叫什么，谁开发的，
+依赖了什么，如何启动，这里是因为你之前创建过，所以现在有冲突，覆盖掉就好。
+
+
+babel是一个转码的，rc应该是配置什么的意思，babel负责把ES6代码转换成ES5的，
+es6等于新的JavaScript语法，但是很多浏览器还没支持好一些新特性，
+所以用babel这个翻译器把他们翻译回es5，es5基本所有浏览器都实现得很好
+
+
+开始，1、核对版本：node --version && npm --version
+
+     2、更新npm版本：npm install --global npm@latest
+
+     3、git版本：git --version
+
+     4、安装Yeoman工具集：npm install --global yo
+
+     5、yo版本：yo --version
+
+npm install --global generator-fountain-webapp
+
