@@ -1,0 +1,23 @@
+在任何目录下返回桌面     cd ~/desktop
+
+自报家门  git config --global user.name "名字"
+          git config --global user.email "邮箱"
+
+从远程库克隆文件到本地   git clone 远程库地址
+
+添加文件步骤  首先直接将目标拖进仓库文件夹（工作区）
+              然后git add 文件夹名，添加到版本库的暂存区
+              接着git commit -m"备注"，将暂存区的所有修改提交到分支
+              最后git push -u origin master,将分支提交到远程仓库
+
+在这个过程中查看状态  git status
+            查看区别  git diff
+
+删除文件    在工作区直接删除文件或者rm 文件名
+            然后确定就是git rm 文件名
+            接着提交，最后同步到远程库做法同上添加
+
+
+            
+
+    
