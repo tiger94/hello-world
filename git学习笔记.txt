@@ -5,10 +5,18 @@
 
 从远程库克隆文件到本地   git clone 远程库地址
 
+在命令行中，输入“git init”，使Test文件夹加入git管理
+
+输入“git remote add origin https://github.com/tiger94/frontend-test”
+（git remote add origin 你自己的https地址），连接你的guthub仓库。
+
 添加文件步骤  首先直接将目标拖进仓库文件夹（工作区）
               然后git add 文件夹名，添加到版本库的暂存区
               接着git commit -m"备注"，将暂存区的所有修改提交到分支
               最后git push -u origin master,将分支提交到远程仓库
+
+上述最后一步中，如果有错，说明仓库里面有文件改动，不能提交，需要先更新
+更新远程到本地命令为  git pull --rebase origin master
 
 在这个过程中查看状态  git status
             查看区别  git diff
