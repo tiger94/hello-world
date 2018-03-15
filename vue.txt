@@ -3,4 +3,6 @@
 2、建个文件夹进入，然后vue init webpack . 
    意思是在当前路径下生成一个webpack模板的vue项目
 3、继续，npm i 下载文件
-4、
+4、运行npm run dev 跑起来
+5、用工具打开刚刚建立的文件夹，vsc或者ide等等都行
+6、
