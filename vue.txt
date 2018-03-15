@@ -2,4 +2,5 @@
     命令为：npm i -g vue-cli
 2、建个文件夹进入，然后vue init webpack . 
    意思是在当前路径下生成一个webpack模板的vue项目
-3、
+3、继续，npm i 下载文件
+4、
