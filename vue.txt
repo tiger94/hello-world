@@ -3,8 +3,10 @@
 2、建个文件夹进入，然后vue init webpack . 
    意思是在当前路径下生成一个webpack模板的vue项目
 3、继续，npm i 下载文件
-4、运行npm run dev 跑起来
+4、运行npm run dev 跑起来，打开浏览器输入网址
 5、用工具打开刚刚建立的文件夹，vsc或者ide等等都行
 6、打开src/app.vue文件，删除带有img的那一行
 7、创建一个新文件夹在src下面，命名为views，在里面创建index.vue文件
 8、编辑src下的router/index.js文件，直接改为：
+9、写刚刚建立的index.vue文件，可以直接格式大致为：
+好了浏览器上可以看到效果了
