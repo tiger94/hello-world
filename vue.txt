@@ -8,5 +8,40 @@
 6、打开src/app.vue文件，删除带有img的那一行
 7、创建一个新文件夹在src下面，命名为views，在里面创建index.vue文件
 8、编辑src下的router/index.js文件，直接改为：
+import Vue from 'vue'
+import Router from 'vue-router'
+import Index from '../views/index'
+
+Vue.use(Router)
+
+export default new Router({
+  routes: [
+    {
+      path: '/',
+      name: 'Index',
+      component: Index
+    }
+  ]
+})
 9、写刚刚建立的index.vue文件，可以直接格式大致为：
+<template>
+  <div class="index-container">
+    <h1>{{title}}</h1>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'Index',
+  data () {
+    return {
+      title: '虎哥鸭脖'
+    }
+  }
+}
+</script>
+
+<style scoped>
+
+</style>
 好了浏览器上可以看到效果了
