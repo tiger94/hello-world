@@ -5,4 +5,6 @@
 3、继续，npm i 下载文件
 4、运行npm run dev 跑起来
 5、用工具打开刚刚建立的文件夹，vsc或者ide等等都行
-6、
+6、打开src/app.vue文件，删除带有img的那一行
+7、创建一个新文件夹在src下面，命名为views，在里面创建index.vue文件
+8、编辑src下的router/index.js文件，直接改为：
