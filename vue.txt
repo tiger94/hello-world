@@ -1,0 +1,5 @@
+1、在node和npm安装完毕且版本正常的情况下，先安装vue-cli，
+    命令为：npm i -g vue-cli
+2、建个文件夹进入，然后vue init webpack . 
+   意思是在当前路径下生成一个webpack模板的vue项目
+3、
